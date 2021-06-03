@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
+
+  <section class="slogan">
+    <div class="container">
+
+      <div class="welcome">
+        <h1>Hello, stranger!</h1>
+        <h3><em>"Guerra é paz. Liberdade é escravidão. Ignorância é força."</em></h3>
+      </div>
+
+      <div id="welcome-img">
+        <img src="./img/logo-partido.png" alt="Logo do Partido">
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section class="boxes">
+    <input type="text" id="msg" value="Coloque sua mensagem para ser criptografada">
+    
+    <!--<input type="submit" onclick="capture()" value="Enviar mensagem">
+
+    <p id="write"></p>-->
+
+
+    <input type="text" id="offset" value="Escolha o offset">
+
+    <input type="text" id="results" value="Resultado de criptografia">
+  </section>
+
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
