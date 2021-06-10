@@ -5,42 +5,52 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <section class="slogan">
-    <div class="container">
 
+    <div class="container">
       <div class="welcome">
-        <h1>Hello, stranger!</h1>
         <h3><em>"Guerra é paz. Liberdade é escravidão. Ignorância é força."</em></h3>
       </div>
-
-      <div id="welcome-img">
-        <img src="./img/logo-partido.png" alt="Logo do Partido">
-      </div>
-
     </div>
-
-
 
   </section>
 
   <section class="boxes">
-    <input type="text" id="msg" value="Coloque sua mensagem para ser criptografada">
-    
-    <!--<input type="submit" onclick="capture()" value="Enviar mensagem">
 
-    <p id="write"></p>-->
+    <div class="values">
+      <p><strong>Deixe sua mensagem:</strong></p><input type="text" id="msg">
 
+      <p><strong>Chave:</strong></p><input type="number" id="offset" value="">
+    </div>
 
-    <input type="text" id="offset" value="Escolha o offset">
+    <div class="buttons">
+      <button id="criptografar"><strong>Criptografar</strong></button>
+      <button id="descriptografar"><strong>Descriptografar</strong></button>
+    </div>
 
-    <input type="text" id="results" value="Resultado de criptografia">
+    <div class="results">
+      <label for="textend">
+        <p><strong>Veja sua mensagem:</strong></p>
+      </label><br>
+      <textarea id="textend" name="cipher"></textarea>
+    </div>
+
+    <footer id="end">
+      <p>
+        @Bruna Calixto - 2021
+      </p>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
+    <script src="./cipher.js" type="module"></script>
   </section>
 
-  <script src="index.js" type="module"></script>
 </body>
 
 </html>
