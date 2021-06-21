@@ -24,11 +24,13 @@ const cipher = {
     let messageCripto = "";
 
     if ( typeof desloc !== "number" || typeof messageValue !== "string") {
-      throw new TypeError
+      throw new TypeError;
     }
 
     for (let i = 0; i < messageValue.length; i++) {
+      
       let code = messageValue.charCodeAt(i);
+
       if (code >= 65 && code <= 90) {
         messageCripto += String.fromCharCode((code - 90 - desloc) % 26 + 90);
       }

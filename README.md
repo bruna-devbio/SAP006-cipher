@@ -4,6 +4,7 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Definição de layout](#3-definição-de-layout)
 
 
 ***
@@ -37,7 +38,7 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do projeto
 
-Este projeto tem como objetivo o fornecimento de uma aplicação em que, numa situação distópica, membros do partipo opositor ao regime totalitário do Grande Irmão, presente no livro "1984", comunicam-se entre si por meio de mensagens cifradas. Visto que, na distopia o único meio de comunicação permitido pelo governo era o idioma "novafala", visando sanar a liberdade de expressão do povo. 
+Este projeto tem como objetivo o fornecimento de uma aplicação em que, numa situação distópica, membros do partipo opositor ao regime totalitário do Grande Irmão, presente no livro "1984", comunicam-se entre si por meio de mensagens cifradas. Visto que, na distopia o único meio de comunicação permitido pelo governo era o idioma "novafala" que excluia expressões poderosas que poderiam ser utilizadas para questionar o totalitarismo, visando sanar a liberdade de expressão do povo. 
 
 ### Interface do usuário (UI)
 
@@ -49,6 +50,10 @@ A interface permite ao usuário:
 * Ver o resultado da mensagem cifrada.
 * Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
+
+## 3. Definição de layout
+
+Foi definido como plano de fundo, utilizar uma imagem temática. Como escrito, uma frase do livro foi adicionada, com o intuito de recordar o usuário sobre a intenção do regime totálitário atuante. O formulário foi baseado em outras aplicações de Cifra de César.
 
 ![layout](https://ik.imagekit.io/dqzqulyog87g/layout-cifra_iHIi7t6kJ.png)
 

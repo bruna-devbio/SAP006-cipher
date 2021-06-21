@@ -47,6 +47,12 @@ h3 {
     border-radius: 10px 10px;
 }
 
+.boxes ::placeholder {
+    text-align:  center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .values {
     padding: 30px;
 }
@@ -95,10 +101,13 @@ textarea {
     resize: none;
     width: 400px;
     height: 100px;
-    font-size: 18px;
     background-color: azure;
 }
 
+textarea ::placeholder {
+    font-size: 18px;
+    margin-top: 10px;
+}
 
 #rodape {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -113,5 +122,6 @@ textarea {
 #rodape p {
     padding: 10px;
     color: burlywood;
+    text-align: center;
 }
 
