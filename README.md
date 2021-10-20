@@ -36,11 +36,11 @@ com facilidade e não oferecem muita segurança na comunicação, mas a cifra de
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Resumo do projeto
+## 2. 💻 Resumo do projeto
 
 Este projeto tem como objetivo o fornecimento de uma aplicação em que, numa situação distópica, membros do partipo opositor ao regime totalitário do Grande Irmão, presente no livro "1984", comunicam-se entre si por meio de mensagens cifradas. Visto que, na distopia o único meio de comunicação permitido pelo governo era o idioma "novafala" que excluia expressões poderosas que poderiam ser utilizadas para questionar o totalitarismo, visando sanar a liberdade de expressão do povo. 
 
-### Interface do usuário (UI)
+###  Interface do usuário (UI)
 
 A interface permite ao usuário:
 
@@ -51,11 +51,13 @@ A interface permite ao usuário:
 * Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
 
-## 3. Definição de layout
+## 3. 💡  Definição de layout
 
 Foi definido como plano de fundo, utilizar uma imagem temática. Como escrito, uma frase do livro foi adicionada, com o intuito de recordar o usuário sobre a intenção do regime totálitário atuante. O formulário foi baseado em outras aplicações de Cifra de César.
 
-![layout](https://ik.imagekit.io/dqzqulyog87g/layout-cifra_iHIi7t6kJ.png)
+<div align="center" style="display: flex">
+  <img alt="prototipo-login" height="380" width="520" src="./src/img/layout-cipher.png">
+</div>
 
 
 

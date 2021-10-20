@@ -1,4 +1,3 @@
-
 const cipher = {
   encode: function (desloc, messageValue) {
     let messageCripto = "";

@@ -1,8 +1,10 @@
-
 import cipher from './cipher.js';
+
 const btnCode = document.getElementById("criptografar");
+btnCode.addEventListener("click", cipherMsg);
+
 function cipherMsg(e) {
-    e . preventDefault ( )
+    e.preventDefault()
     let desloc = Number(document.getElementById("offset").value);
     if (desloc < 0) {
         desloc = Math.abs(desloc)
@@ -11,16 +13,14 @@ function cipherMsg(e) {
     const cipherText = cipher.encode(desloc, messageValue);
     document.getElementById("textEnd").value = cipherText;
 }
-btnCode.addEventListener("click", cipherMsg);
 
 const btnDecode = document.getElementById("descriptografar");
+btnDecode.addEventListener("click", decipherMsg);
+
 function decipherMsg(e) {
-    e . preventDefault ( )
+    e.preventDefault()
     let desloc = Number(document.getElementById("offset").value);
     let messageValue = document.getElementById("msg").value;
     const decipherText = cipher.decode(desloc, messageValue);
     document.getElementById("textEnd").value = decipherText;
 }
-btnDecode.addEventListener("click", decipherMsg);
-
-//console.log(cipher);
